@@ -21,7 +21,6 @@ node('php'){
                 sh 'php artisan route:cache'
             }
          )
-        // sh 'php artisan route:cache'
     }
     
     stage('Docker Build') {
